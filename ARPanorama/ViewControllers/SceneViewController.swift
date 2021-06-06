@@ -60,7 +60,11 @@ final class SceneViewController: UIViewController {
         sceneView.rendersCameraGrain = false
         sceneView.rendersMotionBlur = false
 
-        guard let scene = SCNScene(named: "Main.scn") else {
+//        guard let scene = SCNScene(named: "Main.scn") else {
+//            fatalError("Missing scene")
+//        }
+
+        guard let scene = SCNScene(named: "Panorama.scn") else {
             fatalError("Missing scene")
         }
 
@@ -87,8 +91,9 @@ final class SceneViewController: UIViewController {
         planeNode.geometry?.firstMaterial?.shaderModifiers = [
             .surface:
                 Shaders.surfaceChromaKey(
-                    red: 0.2, green: 0.5, blue: 0.2,
-                    threshold: 0.13
+                    red: 0.47, green: 0.74, blue: 0.47,
+                    sensitivity: 0.105,
+                    smoothness: 0.025
                 )
         ]
 

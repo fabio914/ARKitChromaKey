@@ -11,6 +11,7 @@
 		A325CC6C266999610004596D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A325CC6B266999610004596D /* Assets.xcassets */; };
 		A325CC6F266999610004596D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A325CC6D266999610004596D /* LaunchScreen.storyboard */; };
 		A325CC8226699AEA0004596D /* Main.scn in Resources */ = {isa = PBXBuildFile; fileRef = A325CC8126699AEA0004596D /* Main.scn */; };
+		A3BBC2D3266D3ED3005B0B97 /* Panorama.scn in Resources */ = {isa = PBXBuildFile; fileRef = A3BBC2D2266D3ED3005B0B97 /* Panorama.scn */; };
 		A3E15DC32669AC2C00F23B53 /* SceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E15DC12669AC2C00F23B53 /* SceneViewController.swift */; };
 		A3E15DC42669AC2C00F23B53 /* SceneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3E15DC22669AC2C00F23B53 /* SceneViewController.xib */; };
 		A3E15DCB2669AF9F00F23B53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3E15DC92669AF9F00F23B53 /* ViewController.swift */; };
@@ -24,6 +25,7 @@
 		A325CC6E266999610004596D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A325CC70266999610004596D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A325CC8126699AEA0004596D /* Main.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Main.scn; sourceTree = "<group>"; };
+		A3BBC2D2266D3ED3005B0B97 /* Panorama.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Panorama.scn; sourceTree = "<group>"; };
 		A3E15DC12669AC2C00F23B53 /* SceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewController.swift; sourceTree = "<group>"; };
 		A3E15DC22669AC2C00F23B53 /* SceneViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SceneViewController.xib; sourceTree = "<group>"; };
 		A3E15DC92669AF9F00F23B53 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				A325CC8126699AEA0004596D /* Main.scn */,
+				A3BBC2D2266D3ED3005B0B97 /* Panorama.scn */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 				A325CC6F266999610004596D /* LaunchScreen.storyboard in Resources */,
 				A3E15DC42669AC2C00F23B53 /* SceneViewController.xib in Resources */,
 				A325CC6C266999610004596D /* Assets.xcassets in Resources */,
+				A3BBC2D3266D3ED3005B0B97 /* Panorama.scn in Resources */,
 				A3E15DCC2669AF9F00F23B53 /* ViewController.xib in Resources */,
 				A325CC8226699AEA0004596D /* Main.scn in Resources */,
 			);
